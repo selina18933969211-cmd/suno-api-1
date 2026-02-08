@@ -6,6 +6,9 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  experimental: {
+    serverComponentsExternalPackages: ['rebrowser-playwright-core'],
+  },
 };
 
 export default nextConfig;
